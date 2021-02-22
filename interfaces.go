@@ -25,10 +25,11 @@ func (r rect) area() float64{
 func (c circle) area() float64{
     return c.radius * c.radius * math.Pi
 }
-
+/*
 func (r rect) perim() float64{
     return 2 * (r.width+r.height)
-}
+t}
+*/
 
 func (c circle) perim() float64{
     return 2 * math.Pi * c.radius
