@@ -20,6 +20,7 @@ func main(){
     s := person{name:"Sean", age:50}
     fmt.Println(s.name)
 
+
     sp := &s
     fmt.Println(sp.age)
 
